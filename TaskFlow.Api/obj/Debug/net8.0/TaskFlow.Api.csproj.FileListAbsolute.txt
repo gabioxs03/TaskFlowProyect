@@ -177,3 +177,4 @@ C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Api\bin\Debug\
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Api\obj\Debug\net8.0\TaskFlow.Api.sourcelink.json
+C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Api\bin\Debug\net8.0\Sources\users.json

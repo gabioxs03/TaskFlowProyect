@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Juan",
+    "lastName": "Pérez",
+    "email": "juan.perez@example.com",
+    "phoneNumber": 1122334455,
+    "username": "juanp",
+    "password": "SecurePass123!",
+    "role": "Admin"
+  },
+  {
+    "name": "María",
+    "lastName": "Gómez",
+    "email": "maria.gomez@example.com",
+    "phoneNumber": 1133445566,
+    "username": "mariag",
+    "password": "Password456!",
+    "role": "User"
+  },
+  {
+    "name": "Carlos",
+    "lastName": "Ramírez",
+    "email": "carlos.ramirez@example.com",
+    "phoneNumber": 1144556677,
+    "username": "carlosr",
+    "password": "MySecret789!",
+    "role": "User"
+  },
+  {
+    "name": "Ana",
+    "lastName": "Lopez",
+    "email": "ana.lopez@example.com",
+    "phoneNumber": 1155667788,
+    "username": "analopez",
+    "password": "AnaSecure456!",
+    "role": "Admin"
+  }
+]

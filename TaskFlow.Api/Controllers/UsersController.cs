@@ -22,7 +22,7 @@ namespace TaskFlow.Api.Controllers
             try
             {
                 var user = await _service.AddUser(request);
-                return Created();
+                return Created("/user", user);
             }
             catch (ArgumentException ex)
             {

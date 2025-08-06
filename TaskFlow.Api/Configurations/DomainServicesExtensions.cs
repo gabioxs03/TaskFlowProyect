@@ -2,7 +2,9 @@
 using TaskFlow.Application.Interfaces;
 using TaskFlow.Application.Services;
 using TaskFlow.Data;
+using TaskFlow.Data.Helpers;
 using TaskFlow.Data.Repositories;
+using TaskFlow.Domain.Entities;
 using TaskFlow.Domain.Interfaces;
 
 namespace TaskFlow.Api.Configurations;
@@ -13,15 +15,12 @@ public static class DomainServicesConfigurationExtension
     {
         services.AddDbContext<TaskFlowContext>(options =>
         {
+            options.UseSqlServer(configuration.GetConnectionString("TaskFlowEntities"));
+            options.UseSeeding((c, t) =>
+            {
+                ((TaskFlowContext)c).Seedwork<UserBase>("Sources\\users.json");
 
-            services.AddDbContext<TaskFlowContext>(options =>
-                    options.UseSqlServer(configuration.GetConnectionString("TaskFlowEntities")));
-            /*options.UseSeeding((c, t) =>
-                {
-                    ((Dsw2025Ej15Context)c).Seedwork<Category>("Sources\\categories.json");
-                    ((Dsw2025Ej15Context)c).Seedwork<SubCategory>("Sources\\sub-categories.json");
-                    ((Dsw2025Ej15Context)c).Seedwork<Product>("Sources\\products.json");
-                });*/
+            });
         });
         services.AddScoped<IRepository, EfRepository>();
         services.AddTransient<ITasksManagementService, TasksManagementService>();

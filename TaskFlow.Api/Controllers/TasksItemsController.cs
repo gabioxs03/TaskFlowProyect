@@ -50,7 +50,7 @@ public class TasksItemsController : ControllerBase
         try
         {
             var task = await _service.AddTask(request);
-            return Created();
+            return Created("/task", task);
         }
         catch (ArgumentException ex)
         {
