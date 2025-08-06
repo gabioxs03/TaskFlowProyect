@@ -15,3 +15,4 @@ C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Application\ob
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\refint\TaskFlow.Application.dll
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\TaskFlow.Application.pdb
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\ref\TaskFlow.Application.dll
+C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Application\obj\Debug\net8.0\TaskFlow.Application.sourcelink.json
