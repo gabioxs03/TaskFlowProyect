@@ -1,0 +1,32 @@
+﻿[
+  {
+    "title": "Preparar presentación para la reunión",
+    "description": "Diseñar las diapositivas del informe mensual",
+    "priority": 0,
+    "userId": "8a5f6247-e389-40e6-bdf2-2c9161b40d01"
+  },
+  {
+    "title": "Corregir errores del módulo de autenticación",
+    "description": "Revisar bugs reportados en el login con JWT",
+    "priority": 1,
+    "userId": "8a5f6247-e389-40e6-bdf2-2c9161b40d01"
+  },
+  {
+    "title": "Documentar la API REST",
+    "description": "Agregar anotaciones Swagger y actualizar README",
+    "priority": 2,
+    "userId": "3dbda35a-fb5a-4dc5-89a2-ffab5e1a67d9"
+  },
+  {
+    "title": "Migrar base de datos a SQL Server",
+    "description": "Crear scripts y usar EF Core Migrations",
+    "priority": 2,
+    "userId": "3dbda35a-fb5a-4dc5-89a2-ffab5e1a67d9"
+  },
+  {
+    "title": "Crear endpoint para asignar tareas",
+    "description": "Endpoint POST /tasks/assign para Admins",
+    "priority": 3,
+    "userId": "2c9b45ff-d3c5-4aaf-98e1-90c4b5b1b382"
+  }
+]

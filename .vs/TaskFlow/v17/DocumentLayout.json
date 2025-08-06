@@ -1,0 +1,310 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8B40B9-2558-4B75-AC80-E57772BA6EA9}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.application\\dtos\\taskitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8B40B9-2558-4B75-AC80-E57772BA6EA9}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dtos\\taskitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8B40B9-2558-4B75-AC80-E57772BA6EA9}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.application\\services\\tasksmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8B40B9-2558-4B75-AC80-E57772BA6EA9}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\services\\tasksmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD27AA0-650B-4254-A7AF-790476828DB6}|TaskFlow.Api\\TaskFlow.Api.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.api\\controllers\\tasksitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD27AA0-650B-4254-A7AF-790476828DB6}|TaskFlow.Api\\TaskFlow.Api.csproj|solutionrelative:taskflow.api\\controllers\\tasksitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8B40B9-2558-4B75-AC80-E57772BA6EA9}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.application\\interfaces\\itasksmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8B40B9-2558-4B75-AC80-E57772BA6EA9}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\interfaces\\itasksmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8B40B9-2558-4B75-AC80-E57772BA6EA9}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.application\\dtos\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8B40B9-2558-4B75-AC80-E57772BA6EA9}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\dtos\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD27AA0-650B-4254-A7AF-790476828DB6}|TaskFlow.Api\\TaskFlow.Api.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD27AA0-650B-4254-A7AF-790476828DB6}|TaskFlow.Api\\TaskFlow.Api.csproj|solutionrelative:taskflow.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC58570C-A584-488C-ADBA-EFBBCB54360D}|TaskFlow.Data\\TaskFlow.Data.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.data\\repositories\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC58570C-A584-488C-ADBA-EFBBCB54360D}|TaskFlow.Data\\TaskFlow.Data.csproj|solutionrelative:taskflow.data\\repositories\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFD00D5-008D-4612-9DFD-2BF3B0C94211}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFD00D5-008D-4612-9DFD-2BF3B0C94211}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8B40B9-2558-4B75-AC80-E57772BA6EA9}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.application\\services\\usersmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8B40B9-2558-4B75-AC80-E57772BA6EA9}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\services\\usersmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8B40B9-2558-4B75-AC80-E57772BA6EA9}|TaskFlow.Application\\TaskFlow.Application.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.application\\interfaces\\iusersmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8B40B9-2558-4B75-AC80-E57772BA6EA9}|TaskFlow.Application\\TaskFlow.Application.csproj|solutionrelative:taskflow.application\\interfaces\\iusersmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC58570C-A584-488C-ADBA-EFBBCB54360D}|TaskFlow.Data\\TaskFlow.Data.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.data\\taskflowcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC58570C-A584-488C-ADBA-EFBBCB54360D}|TaskFlow.Data\\TaskFlow.Data.csproj|solutionrelative:taskflow.data\\taskflowcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFD00D5-008D-4612-9DFD-2BF3B0C94211}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFD00D5-008D-4612-9DFD-2BF3B0C94211}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD27AA0-650B-4254-A7AF-790476828DB6}|TaskFlow.Api\\TaskFlow.Api.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD27AA0-650B-4254-A7AF-790476828DB6}|TaskFlow.Api\\TaskFlow.Api.csproj|solutionrelative:taskflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFD00D5-008D-4612-9DFD-2BF3B0C94211}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.domain\\entities\\userbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFD00D5-008D-4612-9DFD-2BF3B0C94211}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\entities\\userbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFD00D5-008D-4612-9DFD-2BF3B0C94211}|TaskFlow.Domain\\TaskFlow.Domain.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFD00D5-008D-4612-9DFD-2BF3B0C94211}|TaskFlow.Domain\\TaskFlow.Domain.csproj|solutionrelative:taskflow.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC58570C-A584-488C-ADBA-EFBBCB54360D}|TaskFlow.Data\\TaskFlow.Data.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.data\\sources\\tasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC58570C-A584-488C-ADBA-EFBBCB54360D}|TaskFlow.Data\\TaskFlow.Data.csproj|solutionrelative:taskflow.data\\sources\\tasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC58570C-A584-488C-ADBA-EFBBCB54360D}|TaskFlow.Data\\TaskFlow.Data.csproj|c:\\users\\gabriel2003\\documents\\taskflow proyect\\taskflow\\taskflow.data\\migrations\\20250806024410_initial-model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC58570C-A584-488C-ADBA-EFBBCB54360D}|TaskFlow.Data\\TaskFlow.Data.csproj|solutionrelative:taskflow.data\\migrations\\20250806024410_initial-model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Application\\Dtos\\TaskItemModel.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\Dtos\\TaskItemModel.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Application\\Dtos\\TaskItemModel.cs",
+              "RelativeToolTip": "TaskFlow.Application\\Dtos\\TaskItemModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:17:11.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Application\\Dtos\\UserModel.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\Dtos\\UserModel.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Application\\Dtos\\UserModel.cs",
+              "RelativeToolTip": "TaskFlow.Application\\Dtos\\UserModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:14:46.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITasksManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Application\\Interfaces\\ITasksManagementService.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\Interfaces\\ITasksManagementService.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Application\\Interfaces\\ITasksManagementService.cs",
+              "RelativeToolTip": "TaskFlow.Application\\Interfaces\\ITasksManagementService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:18:39.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TasksManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Application\\Services\\TasksManagementService.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\Services\\TasksManagementService.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Application\\Services\\TasksManagementService.cs",
+              "RelativeToolTip": "TaskFlow.Application\\Services\\TasksManagementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:20:18.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TasksItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Api\\Controllers\\TasksItemsController.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Api\\Controllers\\TasksItemsController.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Api\\Controllers\\TasksItemsController.cs",
+              "RelativeToolTip": "TaskFlow.Api\\Controllers\\TasksItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:05:40.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "TaskFlow.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:08:20.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EfRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Data\\Repositories\\EfRepository.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Data\\Repositories\\EfRepository.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Data\\Repositories\\EfRepository.cs",
+              "RelativeToolTip": "TaskFlow.Data\\Repositories\\EfRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:07:21.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Application\\Services\\UsersManagementService.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\Services\\UsersManagementService.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Application\\Services\\UsersManagementService.cs",
+              "RelativeToolTip": "TaskFlow.Application\\Services\\UsersManagementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:12:58.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Domain\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Domain\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Domain\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "TaskFlow.Domain\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T17:20:55.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUsersManagementService.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Application\\Interfaces\\IUsersManagementService.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Application\\Interfaces\\IUsersManagementService.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Application\\Interfaces\\IUsersManagementService.cs",
+              "RelativeToolTip": "TaskFlow.Application\\Interfaces\\IUsersManagementService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADgvw4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:13:32.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Domain\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Domain\\Entities\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Domain\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "TaskFlow.Domain\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:16:24.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskFlowContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Data\\TaskFlowContext.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Data\\TaskFlowContext.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Data\\TaskFlowContext.cs",
+              "RelativeToolTip": "TaskFlow.Data\\TaskFlowContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwCoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:38:13.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Api\\Program.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Api\\Program.cs",
+              "RelativeToolTip": "TaskFlow.Api\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwB0AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:07:25.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250806024410_Initial-Model.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Data\\Migrations\\20250806024410_Initial-Model.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Data\\Migrations\\20250806024410_Initial-Model.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Data\\Migrations\\20250806024410_Initial-Model.cs",
+              "RelativeToolTip": "TaskFlow.Data\\Migrations\\20250806024410_Initial-Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:44:10.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserBase.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Domain\\Entities\\UserBase.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Domain\\Entities\\UserBase.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Domain\\Entities\\UserBase.cs",
+              "RelativeToolTip": "TaskFlow.Domain\\Entities\\UserBase.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:16:01.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Domain\\Entities\\Notification.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Domain\\Entities\\Notification.cs",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Domain\\Entities\\Notification.cs",
+              "RelativeToolTip": "TaskFlow.Domain\\Entities\\Notification.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:16:20.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "tasks.json",
+              "DocumentMoniker": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Data\\Sources\\tasks.json",
+              "RelativeDocumentMoniker": "TaskFlow.Data\\Sources\\tasks.json",
+              "ToolTip": "C:\\Users\\Gabriel2003\\Documents\\TaskFlow Proyect\\TaskFlow\\TaskFlow.Data\\Sources\\tasks.json",
+              "RelativeToolTip": "TaskFlow.Data\\Sources\\tasks.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-06T02:03:21.234Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
