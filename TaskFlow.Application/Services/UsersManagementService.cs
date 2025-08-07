@@ -96,4 +96,78 @@ public class UsersManagementService : IUsersManagementService
             user.CreatedAt
         );
     }
+    public async Task<UserModel.UserResponse> UpdateUser(Guid id, UserModel.UserRequest request)
+    {
+        var user = await _repository.GetById<UserBase>(id);
+        if (user == null || !user.IsActive) throw new EntityNotFoundException("Usuario no encontrado o inactivo.");
+
+        if (string.IsNullOrWhiteSpace(request.Name) || string.IsNullOrWhiteSpace(request.LastName) ||
+            string.IsNullOrWhiteSpace(request.Email) || string.IsNullOrWhiteSpace(request.PhoneNumber.ToString())
+            || string.IsNullOrWhiteSpace(request.Username) || string.IsNullOrWhiteSpace(request.Password)
+            || string.IsNullOrWhiteSpace(request.Role))
+        {
+            throw new ArgumentException("Valores para el producto no válidos");
+        }
+
+        if (user.Name!.Equals(request.Name) || user.LastName!.Equals(request.LastName) ||
+            user.Email!.Equals(request.Email) || user.PhoneNumber! == request.PhoneNumber
+            || user.Username!.Equals(request.Username) || user.Password!.Equals(request.Password)
+            || user.Role!.Equals(request.Role))
+        {
+            throw new DuplicatedEntityException("Los valores ingresados deben ser diferentes a los actuales");
+        }
+
+        user.Name = request.Name;
+        user.LastName = request.LastName;
+        user.Email = request.Email;
+        user.PhoneNumber = request.PhoneNumber;
+        user.Username = request.Username;
+        user.Password = request.Password;
+        user.Role = request.Role;
+        await _repository.Update(user);
+        
+        return new UserModel.UserResponse(
+            user.Id,
+            user.Name!,
+            user.LastName!,
+            user.Email!,
+            user.PhoneNumber,
+            user.Username!,
+            user.Role!,
+            user.IsActive,
+            user.CreatedAt
+        );
+    }
+    public async Task<UserModel.UserResponse> ModifyUser(Guid id, UserModel.UserRequest request)
+    {
+        var user = await _repository.GetById<UserBase>(id);
+        if (user == null || !user.IsActive) throw new EntityNotFoundException("Usuario no encontrado o inactivo.");
+        if (string.IsNullOrWhiteSpace(request.Name) || string.IsNullOrWhiteSpace(request.LastName) ||
+            string.IsNullOrWhiteSpace(request.Email) || string.IsNullOrWhiteSpace(request.PhoneNumber.ToString())
+            || string.IsNullOrWhiteSpace(request.Username) || string.IsNullOrWhiteSpace(request.Password)
+            || string.IsNullOrWhiteSpace(request.Role))
+        {
+            throw new ArgumentException("Valores para el producto no válidos");
+        }
+        user.Name = request.Name;
+        user.LastName = request.LastName;
+        user.Email = request.Email;
+        user.PhoneNumber = request.PhoneNumber;
+        user.Username = request.Username;
+        user.Password = request.Password;
+        user.Role = request.Role;
+        await _repository.Update(user);
+        
+        return new UserModel.UserResponse(
+            user.Id,
+            user.Name!,
+            user.LastName!,
+            user.Email!,
+            user.PhoneNumber,
+            user.Username!,
+            user.Role!,
+            user.IsActive,
+            user.CreatedAt
+        );
+    }
 }
