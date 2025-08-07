@@ -26,7 +26,7 @@ public class TasksItemsController : ControllerBase
         }
         catch (ArgumentException ex)
         {
-            return StatusCode(204, ex.Message);
+            return NoContent();
         }
     }
     

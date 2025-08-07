@@ -40,7 +40,7 @@ namespace TaskFlow.Api.Controllers
             }
             catch (ArgumentException ex)
             {
-                return StatusCode(204, ex.Message);
+                return NoContent();
             }
         }
 

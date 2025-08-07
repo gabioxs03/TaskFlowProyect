@@ -16,11 +16,11 @@ public static class DomainServicesConfigurationExtension
         services.AddDbContext<TaskFlowContext>(options =>
         {
             options.UseSqlServer(configuration.GetConnectionString("TaskFlowEntities"));
-            options.UseSeeding((c, t) =>
+            /*options.UseSeeding((c, t) =>
             {
                 ((TaskFlowContext)c).Seedwork<UserBase>("Sources\\users.json");
 
-            });
+            });*/
         });
         services.AddScoped<IRepository, EfRepository>();
         services.AddTransient<ITasksManagementService, TasksManagementService>();
