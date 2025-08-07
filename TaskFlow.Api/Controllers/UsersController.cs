@@ -28,6 +28,10 @@ namespace TaskFlow.Api.Controllers
             {
                 return BadRequest(ex.Message);
             }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpGet]
@@ -40,7 +44,11 @@ namespace TaskFlow.Api.Controllers
             }
             catch (ArgumentException ex)
             {
-                return NoContent();
+                return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
         }
 
@@ -56,6 +64,10 @@ namespace TaskFlow.Api.Controllers
             {
                 return NotFound(ex.Message);
             }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
         
         [HttpPatch("{id}/disable")]
@@ -64,11 +76,15 @@ namespace TaskFlow.Api.Controllers
             try
             {
                 var user = await _service.DisableUser(id);
-                return Ok(user);
+                return NoContent();
             }
             catch (EntityNotFoundException ex)
             {
                 return NotFound(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
         }
     }

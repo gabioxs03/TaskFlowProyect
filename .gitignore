@@ -361,3 +361,46 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Ignorar bin y obj
+bin/
+obj/
+
+# Ignorar paquetes de NuGet descargados
+*.nupkg
+packages/
+*.snupkg
+
+# Archivos temporales de compilación
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Archivos de configuración por usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Configuración de VSCode y Rider
+.vscode/
+.idea/
+
+# Configuraciones de VS temporales
+*.vs/
+.vs/
+
+# Archivos generados por Debug
+Debug/
+Release/
+
+# Ignorar JSON temporales si no querés trackearlos
+*.json
+!appsettings.json        # ← mantiene appsettings.json si querés
+!appsettings.Development.json
+
+# Otros
+*.db
+*.sqlite

@@ -26,7 +26,7 @@ public class TasksItemsController : ControllerBase
         }
         catch (ArgumentException ex)
         {
-            return NoContent();
+            return BadRequest(ex.Message);
         }
     }
     
