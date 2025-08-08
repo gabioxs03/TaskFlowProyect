@@ -1,4 +1,5 @@
 ﻿using Dsw2025Ej15.Application.Exceptions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TaskFlow.Application.Dtos;
@@ -7,6 +8,7 @@ using TaskFlow.Application.Interfaces;
 namespace TaskFlow.Api.Controllers;
 
 [Route("api/users")]
+[Authorize]
 [ApiController]
 public class UsersController : ControllerBase
 {
@@ -35,6 +37,7 @@ public class UsersController : ControllerBase
     }
 
     [HttpGet]
+    [AllowAnonymous]
     public async Task<IActionResult> GetAllUsers()
     {
         try
