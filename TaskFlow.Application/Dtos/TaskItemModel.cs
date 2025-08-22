@@ -12,7 +12,7 @@ public static class TaskItemModel
     public record TaskItemRequest(
         string Title,
         string Description,
-        TaskItemPriority Priority,
+        ActivityPriority Priority,
         Guid UserId
     );
     public record TaskItemResponse(

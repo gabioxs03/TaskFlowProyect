@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TaskFlow.Domain.Entities;
 
-public enum TaskItemStatus
+public enum ActivityStatus
 {
     Pending,      // Tarea creada pero no iniciada
     InProgress,   // Tarea que se está realizando

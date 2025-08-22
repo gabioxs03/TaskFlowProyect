@@ -11,7 +11,7 @@ using TaskFlow.Domain.Interfaces;
 
 namespace TaskFlow.Application.Services;
 
-public class TasksManagementService : ITasksManagementService
+public class TasksManagementService  // ITasksManagementService
 {
     private readonly IRepository _repository;
     public TasksManagementService(IRepository repository)
@@ -19,9 +19,9 @@ public class TasksManagementService : ITasksManagementService
         _repository = repository;
     }
 
-    public async Task<IEnumerable<TaskItemModel.TaskItemResponse>> GetTasks()
+    /* public async Task<IEnumerable<TaskItemModel.TaskItemResponse>> GetTasks()
     {
-        var tasks = await _repository.GetFiltered<TaskItem>(t => t.Status != TaskItemStatus.Completed);
+        var tasks = await _repository.GetFiltered<Activity>(t => t.Status != ActivityStatus.Completed);
         if (tasks == null || !tasks.Any()) throw new ArgumentException("No hay tareas creadas.");
         return tasks!.Select(t => new TaskItemModel.TaskItemResponse(
             t.Id,
@@ -35,7 +35,7 @@ public class TasksManagementService : ITasksManagementService
     }
     public async Task<TaskItemModel.TaskItemResponse> GetTaskById(Guid id)
     {
-        var task = await _repository.GetById<TaskItem>(id);
+        var task = await _repository.GetById<Activity>(id);
         if (task == null) throw new EntityNotFoundException($"No se encontró una tarea con id: {id}.");
         return new TaskItemModel.TaskItemResponse(
             task.Id,
@@ -54,7 +54,7 @@ public class TasksManagementService : ITasksManagementService
         {
             throw new ArgumentException("Valores para la tarea no válidos");
         }
-        var task = new TaskItem(request.Title, request.Description, request.Priority, request.UserId);
+        var task = new Activity(request.Title, request.Description, request.Priority, request.UserId);
         await _repository.Add(task);
         return new TaskItemModel.TaskItemResponse(
             task.Id,
@@ -65,5 +65,5 @@ public class TasksManagementService : ITasksManagementService
             task.CreatedAt,
             task.UserId
         );
-    }
+    } */
 }

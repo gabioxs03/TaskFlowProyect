@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TaskFlow.Domain.Entities;
 
-public enum TaskItemPriority
+public enum ActivityPriority
 {
     Low,
     Medium,

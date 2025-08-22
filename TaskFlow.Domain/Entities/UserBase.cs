@@ -17,6 +17,9 @@ public class UserBase : EntityBase
     public string? Role { get; set; } // Admin, User
     public bool IsActive { get; set; }
     public DateTime CreatedAt { get; set; }
+    public DateTime? UpdatedAt { get; set; }
+    public ICollection<Proyect> Proyects { get; set; } = new List<Proyect>();
+    public ICollection<Team> Teams { get; set; } = new List<Team>();
     public UserBase() {}
     public UserBase(string name, string lastName, string email, int phoneNumber, string username, string password, string role)
     {

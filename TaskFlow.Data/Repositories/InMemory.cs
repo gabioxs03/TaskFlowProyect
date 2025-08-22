@@ -13,7 +13,7 @@ namespace TaskFlow.Data.Repositories;
 
 public class InMemory : IRepository
 {
-    private List<TaskItem>? _tasksItems;
+    private List<Activity>? _tasksItems;
 
     public InMemory()
     {
@@ -22,13 +22,13 @@ public class InMemory : IRepository
 
     private List<T> GetList<T>() where T : EntityBase
     {
-        if (typeof(T) == typeof(TaskItem)) return _tasksItems as List<T> ?? new List<T>();
+        if (typeof(T) == typeof(Activity)) return _tasksItems as List<T> ?? new List<T>();
         throw new NotSupportedException($"Tipo {typeof(T).Name} no soportado en InMemory.");
     }
 
     private void SetList<T>(List<T> list) where T : EntityBase
     {
-        if (typeof(T) == typeof(TaskItem)) _tasksItems = list as List<TaskItem>;
+        if (typeof(T) == typeof(Activity)) _tasksItems = list as List<Activity>;
         else throw new NotSupportedException($"Tipo {typeof(T).Name} no soportado en InMemory.");
     }
 
@@ -89,7 +89,7 @@ public class InMemory : IRepository
             Converters = { new JsonStringEnumConverter() }
         };
 
-        _tasksItems = JsonSerializer.Deserialize<List<TaskItem>>(json, options);
+        _tasksItems = JsonSerializer.Deserialize<List<Activity>>(json, options);
     }
 
 }

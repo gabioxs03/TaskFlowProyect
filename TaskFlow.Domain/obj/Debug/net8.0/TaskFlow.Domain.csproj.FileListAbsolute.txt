@@ -1,12 +1,12 @@
+C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\bin\Debug\net8.0\TaskFlow.Domain.deps.json
+C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\bin\Debug\net8.0\TaskFlow.Domain.dll
+C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\bin\Debug\net8.0\TaskFlow.Domain.pdb
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\obj\Debug\net8.0\TaskFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\obj\Debug\net8.0\TaskFlow.Domain.AssemblyInfoInputs.cache
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\obj\Debug\net8.0\TaskFlow.Domain.AssemblyInfo.cs
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\obj\Debug\net8.0\TaskFlow.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\bin\Debug\net8.0\TaskFlow.Domain.deps.json
-C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\bin\Debug\net8.0\TaskFlow.Domain.dll
-C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\bin\Debug\net8.0\TaskFlow.Domain.pdb
+C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\obj\Debug\net8.0\TaskFlow.Domain.sourcelink.json
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\obj\Debug\net8.0\TaskFlow.Domain.dll
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\obj\Debug\net8.0\refint\TaskFlow.Domain.dll
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\obj\Debug\net8.0\TaskFlow.Domain.pdb
 C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\obj\Debug\net8.0\ref\TaskFlow.Domain.dll
-C:\Users\Gabriel2003\Documents\TaskFlow Proyect\TaskFlow\TaskFlow.Domain\obj\Debug\net8.0\TaskFlow.Domain.sourcelink.json
