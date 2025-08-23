@@ -1,8 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using TaskFlow.Api.Configurations;
-using TaskFlow.Application.Interfaces;
-using TaskFlow.Application.Services;
 using TaskFlow.Data;
 using TaskFlow.Data.Repositories;
 using TaskFlow.Domain.Interfaces;

@@ -20,4 +20,8 @@
     <ProjectReference Include="..\TaskFlow.Application\TaskFlow.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

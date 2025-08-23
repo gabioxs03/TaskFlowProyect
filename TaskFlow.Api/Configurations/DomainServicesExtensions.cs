@@ -24,7 +24,7 @@ public static class DomainServicesConfigurationExtension
         });
         services.AddScoped<IRepository, EfRepository>();
         //services.AddTransient<ITasksManagementService, TasksManagementService>();
-        services.AddTransient<IUsersManagementService, UsersManagementService>();
+        //services.AddTransient<IUsersManagementService, UsersManagementService>();
 
         return services;
     }
