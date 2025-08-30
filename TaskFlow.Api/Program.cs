@@ -1,7 +1,6 @@
-
 using Microsoft.EntityFrameworkCore;
-using TaskFlow.Application.Interfaces;
-using TaskFlow.Application.Services;
+using Microsoft.OpenApi.Models;
+using TaskFlow.Api.Configurations;
 using TaskFlow.Data;
 using TaskFlow.Data.Repositories;
 using TaskFlow.Domain.Interfaces;
@@ -19,15 +18,40 @@ namespace TaskFlow.Api
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(o =>
+            {
+                o.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "TaskFlow Proyect",
+                    Version = "v1",
+                });
+                o.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Name = "Authorization",
+                    Description = "Ingresar el token",
+                    Type = SecuritySchemeType.ApiKey
+                });
+                o.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        Array.Empty<string>()
+                    }
+                });
+            });
+            builder.Services.AddHealthChecks();
+            builder.Services.AddAuthentication()
+                .AddJwtBearer();
 
-            builder.Services.AddDbContext<TaskFlowContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("TaskFlowEntities"))
-            );
-
-            builder.Services.AddScoped<IRepository, EfRepository>();
-            builder.Services.AddTransient<ITasksManagementService, TasksManagementService>();
-            builder.Services.AddTransient<IUsersManagementService, UsersManagementService>();
+            builder.Services.AddDomainServices(builder.Configuration);
 
             var app = builder.Build();
 
