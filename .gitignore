@@ -20,6 +20,11 @@
 # Mono auto generated files
 mono_crash.*
 
+# Ignorar todas las carpetas bin y obj en cualquier subcarpeta
+**/bin/
+**/obj/
+
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
